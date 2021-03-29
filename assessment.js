@@ -3,7 +3,7 @@
 const userNameInput = document.getElementById('user-name');
 const assessmentButton = document.getElementById('assessment');
 const resultDivided = document.getElementById('result-area');
-const tweerDivided = document.getElementById('tweet-area');
+const tweetDivided = document.getElementById('tweet-area');
 
 
 /**
@@ -40,7 +40,7 @@ assessmentButton.onclick = () => {
   paragraph.innerText = result;
   resultDivided.appendChild(paragraph);
   // TODO ツイートエリアの作成
-  console.log('hoge');
+  //console.log('hoge');
   removeAllChildren(tweetDivided);
   const anchor = document.createElement('a');
   const hrefValue =
